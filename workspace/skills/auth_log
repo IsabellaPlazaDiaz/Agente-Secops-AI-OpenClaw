@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Revisando intentos fallidos de acceso:"
+grep "Failed password" /var/log/auth.log | tail -n 5

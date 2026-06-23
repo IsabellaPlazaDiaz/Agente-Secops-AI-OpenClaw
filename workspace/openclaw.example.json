@@ -1,0 +1,41 @@
+{
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "REEMPLAZAR_CON_TOKEN_LOCAL"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "/home/TU_USUARIO/.openclaw/workspace",
+      "models": {
+        "openrouter/free": {}
+      },
+      "model": {
+        "primary": "openrouter/free"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "openrouter": { "enabled": true },
+      "telegram": { "enabled": true }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "openrouter": {
+        "apiKey": "REEMPLAZAR_CON_KEY_DE_OPENROUTER",
+        "baseUrl": "https://openrouter.ai/api/v1"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "REEMPLAZAR_CON_TOKEN_DE_TELEGRAM"
+    }
+  }
+}

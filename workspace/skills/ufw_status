@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "=== FIREWALL ==="
+
+sudo ufw status verbose

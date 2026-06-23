@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Iniciando auditoría profunda..."
+# Escanea puertos y además detecta servicios
+nmap -sV -T4 localhost
+echo "--- Análisis de seguridad ---"
+# Verifica si el firewall está corriendo
+sudo ufw status | grep "Status"

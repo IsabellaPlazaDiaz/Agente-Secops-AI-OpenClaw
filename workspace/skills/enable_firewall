@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "=== HABILITANDO UFW ==="
+sudo ufw --force enable
+echo "=== ESTADO ACTUAL ==="
+sudo ufw status
+echo "=== FIN ==="
+

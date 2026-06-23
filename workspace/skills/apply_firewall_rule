@@ -1,0 +1,5 @@
+#!/bin/bash
+# El primer argumento ($1) es el puerto que le pasamos desde Telegram
+PORT=$1
+sudo ufw deny $PORT
+echo "Puerto $PORT bloqueado correctamente mediante UFW."
