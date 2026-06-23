@@ -1,6 +1,11 @@
 # SecOps AI — Agente de Ciberseguridad Autónomo
-**Universidad del Cauca | Proyecto de Agentes con OpenClaw**  
-**Fecha:** Junio 2026  
+## Estudiantes
+- Isabella Plaza Diaz
+- Maria Cristina Dominguez
+
+**Universidad del Cauca**  
+**Profesor:** Javier Alexander Hurtado  
+**Fecha:** Junio 2026
 **Framework:** OpenClaw v2026.5.28  
 **Canal:** Telegram Bot (@mi_agente_enfasis_bot)
 
